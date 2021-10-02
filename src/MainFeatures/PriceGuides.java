@@ -22,7 +22,7 @@ public class PriceGuides {
 	public void Closing() {			
 		driver.close();
 	}
-	@Test(priority=1)
+	@Test(priority=2)
 	public void clickOnPhoto() throws InterruptedException {
 		//Click on governerate price guide
 		driver.findElement(By.xpath("//body/div[@id='vueApp']/section[1]/div[1]/div[1]/div[3]/div[1]/a[1]/div[1]")).click();
